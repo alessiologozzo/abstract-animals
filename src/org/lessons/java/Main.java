@@ -24,7 +24,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		int dim = InputInterface.getInt(scanner, 1, "Quanti animali vuoi inserire?");
+		int dim = InputInterface.getInt(scanner, 1, 100, "Quanti animali vuoi inserire?");
 		Animal[] animals = new Animal[dim];
 
 		for (int i = 0; i < animals.length; i++) {
